@@ -4,9 +4,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from checker import start_checker
 
-API_ID = 123456   # your api_id
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = 28748671   # your api_id
+API_HASH = "f53ec7c41ce34e6d585674ed9ce6167c"
+BOT_TOKEN = "7793230457:AAGSNLF1YzjSPFnuKPKZJhEjYN-NPsSs2p8"
 
 app = Flask(__name__)
 bot = Client("checker_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
